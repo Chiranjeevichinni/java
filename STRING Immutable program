@@ -1,0 +1,14 @@
+import java.io.*;
+import java.lang.String;
+public class StringImmutableDemo
+{
+    public static void main(String args[])
+    {
+        String s1="CHIRU";
+        s1.concat("CHINNI");
+        System.out.println("After concatinating s1 and s3 is "+s1);
+        String s="CHIRU";
+        s=s.concat("CHINNI");
+        System.out.println("After concatinating s1 and s2 is "+s);
+    }
+}
